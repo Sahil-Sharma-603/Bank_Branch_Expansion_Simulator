@@ -83,8 +83,8 @@ def fmt_num(v: float) -> str:
 
 @st.cache_data(show_spinner="Loading processed data …")
 def load_data():
-    zip_path   = "https://raw.githubusercontent.com/harshpunjabi1/BankBranchExpansionSimulator/main/data/processed/zip_metrics.csv"
-    state_path = "https://raw.githubusercontent.com/harshpunjabi1/BankBranchExpansionSimulator/main/data/processed/state_metrics.csv"
+    zip_path = "https://raw.githubusercontent.com/Sahil-Sharma-603/Bank_Branch_Expansion_Simulator/main/data/processed/zip_metrics.csv" 
+    state_path = "https://raw.githubusercontent.com/Sahil-Sharma-603/Bank_Branch_Expansion_Simulator/main/data/processed/state_metrics.csv.csv"
 
     # missing = [str(p) for p in [zip_path, state_path] if not p.exists()]
     # if missing:
